@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: static;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 370px;
+    z-index: 100;
+    background: #ffffff;
+    background: url(header.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.textocabecera {
+    text-align: center;
+}
+
+.nombreweb h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 80px;
+    padding: 0;
+    color: #424242;
+    -webkit-text-stroke: 2px #bcbcbc;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.rutinade5dias {
+    font-family: "Bangers";
+    font-size: 25px;
+    padding: 5px;
+    color: #424242;
+    margin: 0%;
+    
+}
+
+.caja {
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+    background-color: #bcbcbc;
+    padding: 20px;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #bcbcbc;
+    justify-content: center;
+    font-family: "Century";
+}
+
+.footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 40px;
+    }
+}
+
+
+
+
